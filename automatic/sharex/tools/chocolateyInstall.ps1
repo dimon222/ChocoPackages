@@ -3,8 +3,8 @@
 $packageArgs = @{
     packageName    = $env:ChocolateyPackageName
     fileType       = 'exe'       
-    url            = 'https://github.com//ShareX/ShareX/releases/download/v12.1.1/ShareX-12.1.1-setup.exe' 
-    checksum       = 'ee590a66234c0f1dc57725173eb4c4d3c1babf40c516b64e7d1604eb37f85909'
+    url            = 'https://github.com//ShareX/ShareX/releases/download/v16.0.1/ShareX-16.0.1-setup.exe' 
+    checksum       = 'd85105ef806f15ad367d3be1f7aa7400e285c26e078fdf958618de35cb78e067'
     checksumType   = 'SHA256'
     silentArgs     = '/sp /silent /norestart'
 	validExitCodes = @(0)
